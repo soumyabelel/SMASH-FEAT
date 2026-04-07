@@ -21,17 +21,17 @@ import {
 import ReactMarkdown from 'react-markdown';
 
 const privacyPolicy = `
-# Privacy Policy for SMASH-FEAT
+# Privacy Policy for BROTE VISUALS
 
 **Effective Date:** 03/04/2026
 
-Welcome to **SMASH-FEAT**. Your privacy is important to me. This Privacy Policy explains how I handle information when you visit my website.
+Welcome to **BROTE VISUALS**. Your privacy is important to me. This Privacy Policy explains how I handle information when you visit my website.
 
 ---
 
 ## 1. Information I Collect
 
-SMASH-FEAT is designed to respect your privacy.
+BROTE VISUALS is designed to respect your privacy.
 
 I **do not directly collect or store**:
 
@@ -65,7 +65,7 @@ I am **not responsible for the privacy practices** of these external sites. I re
 
 ## 4. Cookies and Tracking
 
-Currently, SMASH-FEAT:
+Currently, BROTE VISUALS:
 
 * Does **not use cookies for tracking personal data**
 * Does **not track user behavior for advertising purposes**
@@ -110,15 +110,15 @@ By using my website, you agree to this Privacy Policy.
 
 ---
 
-**SMASH-FEAT — AI Marketing & Digital Solutions**
+**BROTE VISUALS — AI Marketing & Digital Solutions**
 `;
 
 const termsOfService = `
-# Terms & Conditions for SMASH-FEAT
+# Terms & Conditions for BROTE VISUALS
 
 **Effective Date:** 03/04/2026
 
-Welcome to SMASH-FEAT. By accessing or using my website, you agree to comply with and be bound by the following Terms & Conditions.
+Welcome to BROTE VISUALS. By accessing or using my website, you agree to comply with and be bound by the following Terms & Conditions.
 
 ## 1. Use of Website
 
@@ -139,7 +139,7 @@ All content on this website, including:
 * Graphics
 * Design elements
 
-is the property of SMASH-FEAT unless otherwise stated.
+is the property of BROTE VISUALS unless otherwise stated.
 
 Unauthorized use of any materials may violate copyright and trademark laws.
 
@@ -166,7 +166,7 @@ Your use of the website is at your own discretion.
 
 ## 5. Limitation of Liability
 
-SMASH-FEAT will not be held liable for:
+BROTE VISUALS will not be held liable for:
 
 * Any direct or indirect damages
 * Loss of data or business opportunities
@@ -289,11 +289,11 @@ const Navbar = ({ onOpenContact }: { onOpenContact: () => void }) => {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <RocketLogo 
-            src="https://i.ibb.co/PZ5YrGZG/Firefly-1.png" 
-            alt="SMASH-FEAT Logo" 
+            src="https://i.ibb.co/xVch2bR/Firefly-2.png" 
+            alt="BROTE VISUALS Logo" 
             className="w-8 h-8 md:w-10 md:h-10 object-contain"
           />
-          <span className="text-lg md:text-xl font-display font-bold tracking-tighter whitespace-nowrap">SMASH-FEAT</span>
+          <span className="text-lg md:text-xl font-display font-bold tracking-tighter whitespace-nowrap">BROTE VISUALS</span>
         </div>
         
         <div className="hidden md:flex items-center md:gap-4 lg:gap-8 text-sm font-medium text-white/70">
@@ -417,7 +417,7 @@ const Hero = ({ onOpenContact }: { onOpenContact: () => void }) => {
               >
                 <img 
                   src="https://i.ibb.co/B5TGFTyP/Gemini-Generated-Image-vzndvbvzndvbvznd.png" 
-                  alt="SMASH-FEAT Professional" 
+                  alt="BROTE VISUALS Professional" 
                   className="w-full h-auto rounded-[1.5rem] grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
                   referrerPolicy="no-referrer"
                 />
@@ -482,6 +482,20 @@ const Hero = ({ onOpenContact }: { onOpenContact: () => void }) => {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
             </motion.button>
           </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="mt-12"
+          >
+            <img 
+              src="https://i.ibb.co/k2NcYBmy/Firefly-3.png" 
+              alt="Brand Badge" 
+              className="w-48 h-48 md:w-72 md:h-72 object-contain mx-auto drop-shadow-[0_0_25px_rgba(250,204,21,0.4)]"
+              referrerPolicy="no-referrer"
+            />
+          </motion.div>
         </motion.div>
       </div>
 
@@ -516,10 +530,10 @@ const About = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-6xl mb-6 uppercase tracking-tight">About <span className="text-gradient">SMASH-FEAT</span></h2>
+          <h2 className="text-4xl md:text-6xl mb-6 uppercase tracking-tight">About <span className="text-gradient">BROTE VISUALS</span></h2>
           <div className="w-20 h-1 bg-neon-yellow mx-auto rounded-full mb-10" />
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed glass p-8 rounded-[2rem] border border-white/10">
-            Welcome to <span className="text-neon-yellow font-bold">SMASH-FEAT</span> — where creativity meets strategy and brands transform into powerful digital identities.
+            Welcome to <span className="text-neon-yellow font-bold">BROTE VISUALS</span> — where creativity meets strategy and brands transform into powerful digital identities.
             <br /><br />
             I am a modern AI-driven marketing expert focused on helping businesses grow, scale, and stand out in today’s competitive online world. My mission is simple: build your brand from the ground up and turn your online presence into a growth engine.
           </p>
@@ -536,8 +550,8 @@ const About = () => {
             >
               <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
                 <RocketLogo 
-                  src="https://i.ibb.co/PZ5YrGZG/Firefly-1.png" 
-                  alt="SMASH-FEAT Logo" 
+                  src="https://i.ibb.co/xVch2bR/Firefly-2.png" 
+                  alt="BROTE VISUALS Logo" 
                   className="w-24 h-24" 
                 />
               </div>
@@ -545,7 +559,7 @@ const About = () => {
                 <span className="text-3xl">🚀</span> What I Do
               </h3>
               <p className="text-white/60 mb-8 leading-relaxed">
-                At SMASH-FEAT, I provide comprehensive social media management tailored for startups, creators, and growing businesses. I don’t just post content — I build your brand strategically.
+                At BROTE VISUALS, I provide comprehensive social media management tailored for startups, creators, and growing businesses. I don’t just post content — I build your brand strategically.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
@@ -601,7 +615,7 @@ const About = () => {
               className="glass p-8 md:p-10 rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-neon-yellow/5 to-transparent"
             >
               <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
-                <span className="text-3xl">💡</span> Why SMASH-FEAT?
+                <span className="text-3xl">💡</span> Why BROTE VISUALS?
               </h3>
               <div className="space-y-6">
                 {[
@@ -647,7 +661,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
               <h3 className="text-2xl font-black mb-4 uppercase italic">✨ Experience the Future of Growth</h3>
               <p className="font-bold opacity-80 leading-tight">
-                With SMASH-FEAT, you’re not just building a presence — you’re building a brand that stands out, connects, and grows.
+                With BROTE VISUALS, you’re not just building a presence — you’re building a brand that stands out, connects, and grows.
               </p>
             </motion.div>
           </div>
@@ -704,20 +718,20 @@ const Pricing = ({ onOpenContact }: { onOpenContact: () => void }) => {
   const packages = [
     {
       name: "Basic",
-      price: "3500",
-      features: ["10 Posts", "2 UGC Videos", "Growth Strategy"],
+      price: "2999",
+      features: ["10 Posts", "2 UGC Videos", "Content Calendar", "Growth Strategy"],
       badge: null,
     },
     {
       name: "Decent",
-      price: "6500",
+      price: "5999",
       features: ["20 Posts", "5 UGC Videos", "Content Calendar", "Strategy", "Proper Scaling"],
       badge: "Recommended Pack",
     },
     {
       name: "Advanced",
-      price: "13000",
-      features: ["30 Posts", "20 UGC Videos", "Content Calendar", "Strategy", "Growth Concept", "Proper Scaling"],
+      price: "11999",
+      features: ["30 Posts", "12 UGC Videos", "Content Calendar", "Strategy", "Growth Concept", "Proper Scaling"],
       badge: "Most Popular",
     },
   ];
@@ -1049,7 +1063,7 @@ const CaseStudies = () => {
           className="mt-16 text-center"
         >
           <a 
-            href="https://www.instagram.com/smashfeat.in/" 
+            href="https://www.instagram.com/brotevisuals/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 glass rounded-full text-sm font-bold uppercase tracking-widest hover:bg-neon-yellow hover:text-black transition-all duration-300 group"
@@ -1192,18 +1206,35 @@ const Contact = () => {
           Let's Grow Your <br />
           <span className="text-gradient">Brand With AI</span> 🚀
         </h2>
-        <p className="text-white/50 text-lg mb-16 max-w-2xl mx-auto">
+        <p className="text-white/50 text-lg mb-12 max-w-2xl mx-auto">
           Ready to transform your digital presence? I am standing by to build your custom growth engine. 
           Connect with me directly through any of these platforms.
         </p>
+
+        {/* Caution Section */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          className="max-w-2xl mx-auto mb-16 p-6 rounded-2xl border border-neon-yellow/30 bg-neon-yellow/5 backdrop-blur-md"
+        >
+          <div className="flex items-center justify-center gap-3 text-neon-yellow mb-2">
+            <span className="text-xl">⚠️</span>
+            <span className="font-bold uppercase tracking-widest text-sm">Caution</span>
+          </div>
+          <p className="text-white/70 text-sm leading-relaxed">
+            For now, only <span className="text-neon-yellow font-bold">Instagram</span> is available for direct communication. 
+            Other platforms will be fully operational soon. Thank you for your patience!
+          </p>
+        </motion.div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-5xl mx-auto">
           {[
-            { Icon: Mail, label: "Email Me", value: "hello.smashfeat@gmail.com", href: "mailto:hello.smashfeat@gmail.com" },
-            { Icon: Linkedin, label: "LinkedIn", value: "SMASH-FEAT", href: "https://www.linkedin.com/in/smash-feat/" },
-            { Icon: Instagram, label: "Instagram", value: "@smashfeat.in", href: "https://www.instagram.com/smashfeat.in/" },
-            { Icon: Facebook, label: "Facebook", value: "SMASH-FEAT", href: "#" },
-            { Icon: Twitter, label: "X (Twitter)", value: "SMASH-FEAT", href: "#" }
+            { Icon: Mail, label: "Email Me", value: "hello.brotevisuals@gmail.com", href: "mailto:hello.brotevisuals@gmail.com" },
+            { Icon: Linkedin, label: "LinkedIn", value: "BROTE VISUALS", href: "https://www.linkedin.com/in/brote-visuals/" },
+            { Icon: Instagram, label: "Instagram", value: "@brotevisuals", href: "https://www.instagram.com/brotevisuals/" },
+            { Icon: Facebook, label: "Facebook", value: "BROTE VISUALS", href: "#" },
+            { Icon: Twitter, label: "X (Twitter)", value: "BROTE VISUALS", href: "#" }
           ].map((item, idx) => (
             <motion.a
               key={idx}
@@ -1235,11 +1266,11 @@ const Footer = ({ onOpenLegal }: { onOpenLegal: (type: 'privacy' | 'terms') => v
         <div className="flex flex-col md:flex-row justify-between items-center gap-12 mb-20">
           <div className="flex items-center gap-3">
             <RocketLogo 
-              src="https://i.ibb.co/PZ5YrGZG/Firefly-1.png" 
-              alt="SMASH-FEAT Logo" 
+              src="https://i.ibb.co/xVch2bR/Firefly-2.png" 
+              alt="BROTE VISUALS Logo" 
               className="w-10 h-10 object-contain"
             />
-            <span className="text-xl font-display font-bold tracking-tighter uppercase">SMASH-FEAT</span>
+            <span className="text-xl font-display font-bold tracking-tighter uppercase">BROTE VISUALS</span>
           </div>
           
           <div className="flex gap-8 text-sm font-medium text-white/40">
@@ -1249,9 +1280,9 @@ const Footer = ({ onOpenLegal }: { onOpenLegal: (type: 'privacy' | 'terms') => v
 
           <div className="flex gap-4">
             {[
-              { Icon: Instagram, href: "https://www.instagram.com/smashfeat.in/" },
+              { Icon: Instagram, href: "https://www.instagram.com/brotevisuals/" },
               { Icon: Twitter, href: "#" },
-              { Icon: Linkedin, href: "https://www.linkedin.com/in/smash-feat/" }
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/brote-visuals/" }
             ].map((social, i) => (
               <a key={i} href={social.href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-neon-yellow hover:text-white transition-all">
                 <social.Icon className="w-5 h-5" />
@@ -1261,7 +1292,7 @@ const Footer = ({ onOpenLegal }: { onOpenLegal: (type: 'privacy' | 'terms') => v
         </div>
         
         <div className="text-center text-xs text-white/20 font-bold uppercase tracking-[0.4em]">
-          © 2026 SMASH-FEAT MEDIA GROUP. ALL RIGHTS RESERVED.
+          © 2026 BROTE VISUALS MEDIA GROUP. ALL RIGHTS RESERVED.
         </div>
       </div>
     </footer>
@@ -1475,7 +1506,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
 
             <div className="space-y-4">
               <button 
-                onClick={() => window.open('https://www.linkedin.com/in/smash-feat/', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/brote-visuals/', '_blank')}
                 className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center gap-4 hover:bg-neon-yellow hover:text-black transition-all group"
               >
                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-black/10">
@@ -1488,7 +1519,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
               </button>
 
               <button 
-                onClick={() => window.open('https://www.instagram.com/smashfeat.in/', '_blank')}
+                onClick={() => window.open('https://www.instagram.com/brotevisuals/', '_blank')}
                 className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center gap-4 hover:bg-neon-yellow hover:text-black transition-all group"
               >
                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-black/10">
@@ -1496,12 +1527,12 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                 </div>
                 <div className="text-left">
                   <div className="text-xs font-bold uppercase tracking-widest opacity-50">Social</div>
-                  <div className="font-bold">Follow on Instagram (@smashfeat.in)</div>
+                  <div className="font-bold">Follow on Instagram (@brotevisuals)</div>
                 </div>
               </button>
 
               <button 
-                onClick={() => window.location.href = 'mailto:hello.smashfeat@gmail.com'}
+                onClick={() => window.location.href = 'mailto:hello.brotevisuals@gmail.com'}
                 className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center gap-4 hover:bg-neon-yellow hover:text-black transition-all group"
               >
                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-black/10">
@@ -1509,7 +1540,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                 </div>
                 <div className="text-left">
                   <div className="text-xs font-bold uppercase tracking-widest opacity-50">Direct</div>
-                  <div className="font-bold">hello.smashfeat@gmail.com</div>
+                  <div className="font-bold">hello.brotevisuals@gmail.com</div>
                 </div>
               </button>
             </div>
